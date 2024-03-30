@@ -1,0 +1,279 @@
+.container{
+    margin: 50px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+header .container  .text{
+    margin-top: 45px;
+}
+
+header .container  .text h2{
+    max-width: 450px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    font-size: 35px;
+}
+header .container {
+    margin-top: 100px;
+
+
+}
+
+ .text p{
+    max-width: 450px;
+    margin-bottom: 20px ;
+ }
+ header .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 50px;
+ }
+ 
+
+ .img{
+    max-width: 450px;
+ }
+
+ input{
+    padding: 8px;
+    padding-right: 70px;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.12);
+ }
+ button{
+    padding: 9px 30px;
+    background: rgb(43, 43, 231);
+    color: white;
+    border: none;
+    border-radius: 3px;
+ }
+ 
+  .container .review h2{
+    max-width: 520px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    font-size: 35px;
+  }
+
+  .container .review p{
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+
+  .review a{
+    color: rgb(28, 160, 28);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(28, 160, 28);
+    padding-bottom: 2px;
+  }
+ 
+   section .container  {
+    margin-top: 200px;
+    margin-bottom: 0px;
+  }
+
+
+  .review .post{
+    background: white;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-top: 20px;
+     width: 410px;
+     height: 265px;
+     color: black;
+     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 3px;
+  }
+.post .quotes{
+   
+        width: 30px;
+        padding-bottom: 10px;
+}
+.post .quote{
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.creator_section{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    column-gap: 15px;
+}
+.creator_section .creator{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.creator_section .text p{
+    width: 170px;
+    margin-bottom: 5px;
+}
+.creator_section .text {
+   margin-top: 15px;
+}
+section .container{
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+.second{
+    max-width: 450px;
+}
+
+section{
+    background: #F8F8FE;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+ .search input{
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.12);
+
+ }
+  .search button{
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(43, 43, 231);
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+
+ .search{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+.section2{
+    background: rgb(108, 108, 255);
+    height: 300px;
+
+}
+
+.section2 .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0;
+    height: 100%;
+    padding: 50px;
+}
+
+.container .action{
+    max-width: 430px;
+    color: white;
+}
+.container .action h2{
+    margin-bottom: 10px;
+}
+
+footer .container .foot{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 0;
+
+}
+footer{
+    background: rgb(2, 0, 37);
+    height: 270px;
+    color: white;
+}
+
+footer .container{
+    margin-top: -5px;
+    padding-top: 80px;
+}
+
+.footer1 .phone{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 30px 180px;
+}
+.footer1 .email{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 30px 180px;
+}
+.footer .logo{
+   background: white;
+}
+
+@media ( max-width: 1049px) {
+    header .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    
+    section{
+        height: 1050px;
+    }
+    section .review{
+        padding-top: 40px;
+    }
+    section .container{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    } 
+
+    .section2 .container{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    } 
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
